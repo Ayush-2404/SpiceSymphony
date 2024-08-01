@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6f6244;
+}
+
+.mainhead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 300;
+    align-items: center;
+}
+
+.menu-food {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.back-menu {
+    height: 110vh;
+    background-image: url(img/menu.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcont {
+    height: 820px;
+    background-color: #6f6244;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 25px;
+}
